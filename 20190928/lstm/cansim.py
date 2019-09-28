@@ -77,11 +77,34 @@ print(y_train.shape)
  [0.81482896 0.80210057 0.79916654 ... 0.53166512 0.59734863 0.92972
  이 값이 텐서
  매트릭스 구조
+ 텐서가 계속 그려지면서 앞으로의 텐서를 예측하는 것
+
+이러한 텐서가 시간에 따라 움직이는 것을 LSTM모델이라고 한다
 
 """
 
+#LSTM 모델 만들기
+from keras.layers import LSTM
+from keras.models import Sequential
+from keras.layers import Dense
+import keras.backend as K
+from keras.callbacks import EarlyStopping
+
+K.clear_session()
+#seq는 쭉 쌓는 것
+model = Sequential()
+model.add(LSTM(20, input_shape=(12, 1))) # timestamp, feature
+model.add(Dense(1)) #output = 1
+model.compile(loss='mean_squared_error', optimizer='adam')
+print(model.summary())
 
 
+early_stop = EarlyStopping(monitor='loss', patience=1, verbose=1)
+model.fit(X_train_t, y_train, epochs=100,
+          batch_size=30, verbose=1, callbacks=[early_stop])
 
-
-
+print('##### X_test_t ')
+print(X_test_t)
+print('### 모델 예측값 ###')
+y_pred = model.predict(X_test_t)
+print(y_pred)
