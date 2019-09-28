@@ -11,6 +11,7 @@ class KerasSample:
         self.epochs = 20
 
         #모델 생성
+        #하나의 값(mnist.load_data())을 2개로 분리하는 것
         (x_train, y_train),(x_test, y_test) = mnist.load_data()
         x_train = x_train.reshape(60000, 784)
         x_test = x_test.reshape(10000, 784)

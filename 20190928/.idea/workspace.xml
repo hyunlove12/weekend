@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c93a77bb-dbd7-498b-af38-02f57cf8ce1d" name="Default Changelist" comment="" />
+    <list default="true" id="c93a77bb-dbd7-498b-af38-02f57cf8ce1d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lstm/ai_trader_10.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lstm/ai_trader_20.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lstm/ai_trader_30.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lstm/cansim.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lstm/data/cansim-0800020-eng-6674700030567901031.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lstm/keras_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lstm/movie_lstm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lstm/ai_trader.py" beforeDir="false" afterPath="$PROJECT_DIR$/lstm/ai_trader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lstm/keras_sample.py" beforeDir="false" afterPath="$PROJECT_DIR$/lstm/keras_sample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dlearn" beforeDir="false" afterPath="$PROJECT_DIR$/../dlearn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mlearn_1" beforeDir="false" afterPath="$PROJECT_DIR$/../mlearn_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow190803" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow190803" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow190824" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow190824" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tensorflow20190831" beforeDir="false" afterPath="$PROJECT_DIR$/../tensorflow20190831" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +32,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1RRaX4Amvg2sy6XclyOWWWxNaz9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lstm/data" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ezen\PycharmProjects\20190928\lstm\data" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -31,8 +62,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.keras_sample">
-    <configuration name="cos_graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.cansim">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190928" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -44,7 +75,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lstm/cos_graph.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lstm/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ai_trader" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190928" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lstm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lstm/ai_trader.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="cansim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="20190928" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lstm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lstm/cansim.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="naver_stock" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="movie_lstm" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="20190928" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -86,7 +159,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lstm/naver_stock.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lstm/movie_lstm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,9 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cansim" />
+        <item itemvalue="Python.__init__" />
+        <item itemvalue="Python.ai_trader" />
+        <item itemvalue="Python.movie_lstm" />
         <item itemvalue="Python.keras_sample" />
-        <item itemvalue="Python.naver_stock" />
-        <item itemvalue="Python.cos_graph" />
       </list>
     </recent_temporary>
   </component>
@@ -115,5 +190,19 @@
       <updated>1569632398657</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
